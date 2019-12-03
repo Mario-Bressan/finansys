@@ -48,7 +48,8 @@
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/primeng/resources/primeng.css",
-              "./node_modules/primeicons/primeicons.css"
+              "./node_modules/primeicons/primeicons.css",
+              "./node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },
