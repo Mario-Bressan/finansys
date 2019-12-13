@@ -8,6 +8,7 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import {InMemoryDatabase} from './in-memory-database';
 import { HttpClientModule} from '@angular/common/http';
 import {ToastrModule} from 'ngx-toastr';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import {ToastrModule} from 'ngx-toastr';
     HttpClientModule,
     // ativação do in memory web api
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDatabase),
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

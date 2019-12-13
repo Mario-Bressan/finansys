@@ -3,7 +3,6 @@ import {HttpClient} from '@angular/common/http';
 import {Observable, throwError} from 'rxjs';
 import {Category} from './category.model';
 import {catchError, map} from 'rxjs/operators';
-import {element} from 'protractor';
 
 @Injectable({
   providedIn: 'root'
